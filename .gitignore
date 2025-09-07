@@ -1,0 +1,43 @@
+# Python stuff
+__pycache__/
+*.py[cod]
+*.so
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+.env
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.pyenv/
+
+# VSCode / IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Migrations (optional — keep if you want full history)
+*/migrations/__pycache__/
+*/migrations/*.pyc
+# Uncomment the next line if you don’t want migration files in repo
+# */migrations/
+
+# Coverage / test reports
+htmlcov/
+.coverage
+.tox/
+.pytest_cache/
+
+# Node (if using npm for frontend)
+node_modules/
